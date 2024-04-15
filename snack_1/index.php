@@ -25,7 +25,7 @@ $matches = [
     
 
 foreach ($matches as $match) {
-    var_dump($match['team1'] . ' ' . $match['team2'] . ' ' . '|' . ' ' . $match['pointTeam1'] . ' ' . $match['pointTeam2']);
+    var_dump($match['team1'] . ' ' . '-' . ' ' . $match['team2'] . ' ' . '|' . ' ' . $match['pointTeam1'] . ' ' . $match['pointTeam2']);
 };
 
 
